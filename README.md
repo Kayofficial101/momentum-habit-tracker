@@ -22,7 +22,6 @@ I vibecoded the app with Claude: I described the problem and my OnePlus 13 setup
 - Android SDK 35, minimum SDK 26
 - Kotlin Serialization with a local JSON data store
 - Android notifications, alarms, broadcast receivers and App Widgets
-- Gradle 8.10.2 / Android Gradle Plugin 8.7.3
 
 ## Download the app
 
