@@ -2,7 +2,7 @@
 
 Momentum is a private-first Android habit, task and notes app I built for my own routine. I wanted one place that could remind me about fixed-time habits, keep flexible work visible until it was done, and show whether I was actually staying consistent.
 
-I vibecoded the app with Claude: I described the problem and my OnePlus 13 setup, reviewed the proposed product plan, chose the reminder behaviour and then iterated on the working APK. The finished app is native Android code rather than a generated mockup.
+I built it with Claude after mapping the routines I wanted to follow, the reminder behaviour and how each task should appear on my OnePlus 13. I tested the APK and added selected-day routines, stronger reminders and the home-screen widget after using the first version.
 
 ## What it does
 
@@ -27,13 +27,9 @@ I vibecoded the app with Claude: I described the problem and my OnePlus 13 setup
 
 [Download Momentum v2.0](Momentum-v2.0.apk). Android may ask you to allow installation from your browser or file manager because this is a personal APK rather than a Play Store release.
 
-This repository is a project showcase and download page. The source code and private signing key remain private.
+## Prompt given to Claude
 
-## AI build prompt
-
-The first brief was conversational: a personal Android to-do and notes app that would keep me accountable for medication, study and everyday tasks. I later added day-specific routines, widgets and stronger reminder logic.
-
-[Read the reconstructed production prompt](PROMPT.md). It captures the complete requirements in a cleaner format and is not presented as a verbatim transcript.
+[Read the complete prompt](PROMPT.md)
 
 ## Privacy
 
